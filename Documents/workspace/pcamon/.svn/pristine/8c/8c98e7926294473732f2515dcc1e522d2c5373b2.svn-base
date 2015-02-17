@@ -1,0 +1,873 @@
+
+<!--  ANAMNESE  -->
+<div id="anamnese" data-role="page">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+            <button class="backButton">
+                <i class="fa fa-rotate-left fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+
+
+    <div data-role="content">
+
+        <div class="ui-bar ui-bar-a">
+            Liebe Klienten, unser Behandlungsansatz ist ganzheitlich und es ist für uns aus diesem Grund von grosser
+            Bedeutung, Ihren Gesundheitszustand gründlich zu erheben. So wird es uns möglich, Rückschlüsse auf eventuell
+            medizinische Zusammenhänge zu ziehen.
+            Je genauer und umfassender Ihre Informationen sind, um so besser können wir uns auf Sie vorbereiten und
+            individuell auf Sie eingehen.
+            Bitte füllen Sie den Fragebogen daher so gut wie möglich aus und bringen ihn gerne zur nächsten Sitzung mit.
+            Selbstverständlich unterliegen sämtliche Ihrer Angaben der Schweigepflicht.
+            Vielen Dank für Ihre Mithilfe! Ihr Institutsteam
+        </div>
+        <input type="hidden" id="anamneseid" >
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><input type="text" id="a1" placeholder="Vorname"></div>
+            <div class="ui-block-b"><input type="text" id="a2" placeholder="Nachname"></div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><input type="date" id="a3" placeholder="Geboren am"></div>
+            <div class="ui-block-b"><input type="number" id="a4" placeholder="Alter in Jahren"></div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-a" data-mini="true">
+            <div class="ui-block-a">
+                <input type="radio" name="radio-mini" id="a5"  value="f" checked="checked"/>
+                <label for="a5">Weiblich</label>
+
+                <input type="radio" name="radio-mini" id="a6"  value="m"/>
+                <label for="a6">Männlich</label>
+
+            </div>
+
+            <div class="ui-block-b">
+                <div  ><input type="number" id="a7" placeholder="Gewicht in kg"></div>
+
+
+                <div  ><input type="number" id="a8" placeholder="Grösse in cm"></div>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-solo">
+            <label for="a9">Beruf/Tätigkeit</label>
+<textarea name="textarea" id="a9">
+</textarea>
+        </div>
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Gewohnheiten</h3>
+        </div>
+
+        <div class="ui-grid-none">
+            Rauchen Sie?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min"   id="a10" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div ><input data-mini="true" id="a11" type="text" placeholder="Wieviel"></div>
+            </div>
+            <div class="ui-block-c">
+                <div  ><input data-mini="true" id="a12"  type="text" placeholder="Seit wann?"></div>
+            </div>
+        </fieldset>
+        <div class="ui-grid-none">
+            Trinken Sie regelmässig Alkohol?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a13" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a14" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a15"  placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+        <div class="ui-grid-none">
+            Haben Sie andauernden Stress?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a16" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a17" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a18" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Treiben Sie Sport?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a19" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a20" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a21" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Ernähren Sie sich gesund?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a22" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a23" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a24" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Schlafen Sie gut und ausreichend?
+
+        </div>
+        <fieldset class="ui-grid-b"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a25" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a26" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a27" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Haben Sie Beschwerden an/mit</h3>
+        </div>
+
+        <div class="ui-grid-none">
+            Kopf / Hals / Schilddrüse / Zähnen
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a28" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a29">
+  </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Herz-Kreislaufsystem
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a30" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a31">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Lunge / Atemwege
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a32" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a33" >
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Magen / Darmsystem
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a34"  data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a35" >
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Niere / Blasensystem / Genitalien / Sexualität
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a36" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a37" >
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Knochen / Muskeln / Gelenksapparat
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a38"  data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a39" >
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Allergien
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a40"  data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a41" >
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Neurologische Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a42"  data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a43">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Psychologische Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a44" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a45">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Sonstige Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a46" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a47">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Haben Sie </h3>
+        </div>
+        <div class="ui-grid-none">
+            Bestehende Krankheiten
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a48" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a49">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Frühere Krankheiten
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a50" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a51">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Operationen
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a52" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a53">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Erhöhter Blutdruck
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a54" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a55">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Erhöhte Blutfette
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a56" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a57">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Diabetes
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a58" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?" id="a59">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Übergewicht
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a60" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Welche?"  id="a61">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+
+        <fieldset class="ui-grid-c" data-mini="true">
+            <div class="ui-block-a">
+                Welche Medikament nehmen Sie?
+                Art / Name /Für
+
+            </div>
+            <div class="ui-block-b">
+            </div>
+            <div class="ui-block-c">
+                <textarea name="textarea" placeholder="Welche?"  id="a62">
+ </textarea>
+
+
+            </div>
+
+
+        </fieldset>
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Gibt es in Ihrer Familie </h3>
+        </div>
+
+
+
+        <div class="ui-grid-none">
+            Herzerkrankungen
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min"  id="a63" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten??"  id="a64">
+</textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Bluthochdruck
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min"  id="a65" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?"  id="a66">
+</textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Schlaganfälle
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min"  id="a67" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?"  id="a68">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Übergewicht
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min"  id="a69" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?"  id="a70">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Diabetes
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a71" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a72">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Krebsleiden
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a73" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a74">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Krebsleiden
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a75" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a76">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Rücken- und Gelenkserkrankung
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a77" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a78">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+        <div class="ui-grid-none">
+            Allergien
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a79" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a80">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+
+
+
+
+        <div class="ui-grid-none">
+            anderes
+
+        </div>
+        <fieldset class="ui-grid-a"  >
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a81" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea"  placeholder="Bei welchen Verwandten?" id="a82">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+
+
+
+
+        <fieldset class="ui-grid-solo" data-mini="true">
+            <label for="a83">Hausarzt</label>
+            <textarea name="textarea" placeholder=" " id="a83">
+</textarea>
+            <input type="radio" name="radio-mini" id="a84" value="1" checked="checked"/>
+            <label for="a84">Sie wurden überwiesen</label>
+
+            <input type="radio" name="radio-mini" id="a85" value="1"/>
+            <label for="a85">Sie kommen aus eigener Initiative</label>
+
+        </fieldset>
+
+
+        <div class="ui-bar ui-bar-b documentsPageHeader">
+            <fieldset class="ui-grid-b">
+                <div class="ui-block-a">
+
+                    <a href="#" id="saveAnamnese" data-role="button">Speichern</a>
+                </div>
+                <div class="ui-block-c">
+                    <a href="#" id="anamneseReleaseDate" data-role="button"> <span id="releaseDate">Freigabe</span></a>
+                </div>
+
+                <div class="ui-block-b">
+
+                    <a href="#" data-role="button">Drucken</a>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i class="fa fa-folder-open-o fa-2x ui-btn-active "></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->

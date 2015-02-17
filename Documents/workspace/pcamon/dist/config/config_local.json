@@ -1,0 +1,10 @@
+{
+    "name": "pcamon",
+    "version": "0.0.1",
+    "surveyEvents" : ["Meeting"],
+    "numberPortalEvents" : 4,
+    "loginServer"   : "",
+    "backendServer" : "",
+    "serverDir"     : "",
+    "loginDir"      : "pcamon/dist/php/userfrosting/"
+}

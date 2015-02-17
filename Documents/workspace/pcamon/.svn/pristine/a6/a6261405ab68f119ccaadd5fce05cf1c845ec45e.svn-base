@@ -1,0 +1,9 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; This is the central configuration file for the user management module's logout action.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[logout]
+ActionClass = "APF\modules\usermanagement\biz\login\UmgtLogoutAction"
+
+[UmgtAutoLoginAction]
+ActionClass = "APF\modules\usermanagement\biz\login\UmgtAutoLoginAction"

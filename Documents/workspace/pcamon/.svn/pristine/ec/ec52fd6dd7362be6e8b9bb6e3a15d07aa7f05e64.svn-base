@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html http-equiv="expires" content="0" manifest="manifest.appcache" data-placeholder-live="false">
+<head>
+    <meta charset="utf-8"/>
+    <title>PCA Monitor</title>
+
+      <!-- JQuery Stuff -->
+    <!--
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+      -->
+    <!--
+       <script src="js/jquery/jquery-1.9.1.min.js"></script>
+       -->
+    <script src="js/jquery/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="js/cordova/cordova.js"></script>
+
+
+
+
+
+    <!-- Push Notification   -->
+    <script type="text/javascript" src="js/pushnotification/PushNotification.js"></script>
+
+    <!-- Andaro Stuff -->
+    <!-- Ajax calls -->
+    <script type="text/javascript" src="js/andaro/ajax/events.js"></script>
+    <script type="text/javascript" src="js/andaro/ajax/mail.js"></script>
+    <script type="text/javascript" src="js/andaro/auth.js"></script>
+    <script type="text/javascript" src="js/andaro/loaddata.js"></script>
+    <script type="text/javascript" src="js/andaro/ajax/survey.js"></script>
+    <script type="text/javascript" src="js/andaro/trigger.js"></script>
+
+    <script type="text/javascript" src="js/andaro/json.js"></script>
+    <script type="text/javascript" src="js/andaro/fnc.js"></script>
+    <script type="text/javascript" src="js/andaro/uielements.js"></script>
+    <script type="text/javascript" src="js/andaro/selectors.js"></script>
+    <script type="text/javascript" src="js/andaro/gendoc.js"></script>
+    <script type="text/javascript" src="js/andaro/audio.js"></script>
+    <script type="text/javascript" src="js/andaro/constants.js"></script>
+    <script type="text/javascript" src="js/andaro/ajax/user.js"></script>
+    <script type="text/javascript" src="js/andaro/anamnese.js"></script>
+    <script type="text/javascript" src="js/andaro/anker.js"></script>
+
+    <!-- Date Box -->
+    <script type="text/javascript" src="js/dataBox/datebox.js"></script>
+    <script type="text/javascript"
+            src="js/dataBox/jqm-datebox.mode.calbox.min.js"></script>
+    <script type="text/javascript"
+            src="js/dataBox/jquery.mobile.datebox.i8n.de.js"></script>
+    <script type="text/javascript"
+            src="js/dataBox/jqm-datebox.mode.datebox.js"></script>
+
+    <!-- Placeholder, enables placeholder on textarea   -->
+    <script src="js/placeholder/placeholder.js"></script>
+
+    <!-- TINYBOX, Alerts -->
+    <script type="text/javascript" src="js/tinybox/packed.js"></script>
+    <link rel="stylesheet" href="js/tinybox/style.css"/>
+
+    <!-- Audio   -->
+    <script src="js/audio/whitenoise.player.min.js"></script>
+
+    <!-- Audio CSS -->
+    <link rel="stylesheet" href="styles/css/audio/circle.skin/circle.player.css"/>
+
+    <!-- Push Notification   -->
+    <script type="text/javascript" src="js/pushnotification/PushNotification.js"></script>
+
+    <!-- eventCalendar   -->
+    <link rel="stylesheet" href="styles/css/eventCalendar.css">
+    <link rel="stylesheet" href="styles/css/eventCalendar_theme_responsive.css">
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+
+
+
+    <link rel="stylesheet" href="styles/css/jquery.mobile.flatui.css"/>
+
+    <!-- blueimp Gallery styles -->
+    <link rel="stylesheet" href="styles/css/blueimp-galery.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/css/jqm-datebox-1.3.0.css">
+
+    <link href="styles/css/font-awesome.min.css" rel="stylesheet">
+    <!-- FooTables -->
+    <link href="js/footables/css/footable.core.css" rel="stylesheet" type="text/css"/>
+    <link href="js/footables/css/footable.metro.css" rel="stylesheet" type="text/css"/>
+    <script src="js/footables/js/footable.js" type="text/javascript"></script>
+
+    <!-- overwrite stuff here -->
+    <link rel="stylesheet" href="styles/css/andaro.css"/>
+
+</head>
+
+<body>
+
+<!-- -------------------------------------------------------------------
+----   SEITEN --- PAGES --- SEITEN --- PAGES
+----------------------------------------------------------------------->
+
+
+<!-- PORTAL SEITE -->
+<div data-role="page" id="portal" class=portalPage" data-theme="a">
+    <div data-role="header">
+
+
+        <a id="portaluser" class="list-group-item" href="#"><i class="fa fa-user"></i>&nbsp; </a>
+
+        <h1 id="portalheader">HOLY FASHION GROUP</h1>
+
+        <a href="#" id="logout" class="ui-btn ui-corner-all ui-btn-right">
+            <span id="loggedInUser">
+
+
+
+            </span>
+
+            <span>  </span> </a>
+
+
+    </div>
+
+    <div data-role="content">
+        <div style="width:100%;">
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <tr>
+
+                    <td>
+                        <div id="portalCalendar" class="box portal">
+                            <a class="list-group-item" href="#"><i class="fa fa-calendar fa-2x"></i>&nbsp; Termine</a>
+
+
+                        </div>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <div id="portalVertrag" class="box portal">
+                            <a class="list-group-item" href="#"><i class="fa fa-comments fa-2x"></i>&nbsp; Kontakt</a>
+
+
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <div id="portalDocuments" class="box portal">
+
+                            <a class="list-group-item" href="#"><i class="fa fa-folder-open-o fa-2x"></i>&nbsp;
+                                Dokumente</a>
+
+
+                            <p>
+
+                            </p>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <div id="portalAudios" class="box portal">
+                            <a class="list-group-item" href="#"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; Audio</a>
+
+                        </div>
+                    </td>
+                </tr>
+
+
+                <br>
+
+
+            </table>
+            <span id="authPortalSettings"></span>
+
+            <script id="_authPortalSettings" type="text/x-tmpl">
+                     {% if (o.showPortalSettings !== undefined ) { %}
+
+
+
+                          <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                         <td>
+                          <div id="portalSettings" class="box portal coaches">
+                             Coaches only
+
+                        </div>
+
+                        </td>
+                         </tr>
+                         <tr>
+
+                    <td>
+                        <div  class="box portal">
+                            <p>Zu Nutzer wechseln: </p>
+                            <select id="filter-menu" data-native-menu="false">
+
+
+                            </select>
+                            </div>
+                    </td>
+
+                </tr>
+                          <tr>
+                         <td>
+                          <div id="portalSettings" class="box portal">
+                            <a class="list-group-item" href="#"><i class="fa fa-gear fa-2x"></i>&nbsp; Settings</a>
+
+                        </div>
+
+                        </td>
+                         </tr>
+                                 <tr>
+                         <td>
+                          <div id="portalReports" class="box portal">
+                            <a class="list-group-item" href="#"><i class="fa fa-dashboard fa-2x"></i>&nbsp; Reports</a>
+
+                        </div>
+
+                        </td>
+                         </tr>
+                         </table>
+                     {%  } %}
+
+
+
+            </script>
+        </div>
+    </div>
+</div>
+<!-- /page -->
+
+
+<!-- SEITE KALENDER -->
+<div data-role="page" id="calendar">
+
+
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+        </div>
+        <h2>&nbsp;</h2>
+
+        <div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
+            <a href="#newEventDialog" id="showNewEventDialog" data-role="button" data-icon="plus">Neu</a>
+
+        </div>
+
+    </div>
+
+
+    <div data-role="content">
+        <input type="hidden" id="currentEventId">
+
+        <h2 class="h4">&nbsp;</h2>
+
+        <div id="eventCalendarLocaleFrame">
+
+            <div id="eventCalendarLocale" style="min-height:400px;"></div>
+        </div>
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="ui-btn-active fa fa-calendar fa-2x"></i>&nbsp;
+                    </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i class="fa fa-folder-open-o fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+<!--  ANAMNESE  -->
+<div id="anamnese" data-role="page">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+            <button class="backButton">
+                <i class="fa fa-rotate-left fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+
+
+    <div data-role="content">
+
+        <div class="ui-bar ui-bar-a">
+            Liebe Klienten, unser Behandlungsansatz ist ganzheitlich und es ist für uns aus diesem Grund von grosser
+            Bedeutung, Ihren Gesundheitszustand gründlich zu erheben. So wird es uns möglich, Rückschlüsse auf eventuell
+            medizinische Zusammenhänge zu ziehen.
+            Je genauer und umfassender Ihre Informationen sind, um so besser können wir uns auf Sie vorbereiten und
+            individuell auf Sie eingehen.
+            Bitte füllen Sie den Fragebogen daher so gut wie möglich aus und bringen ihn gerne zur nächsten Sitzung mit.
+            Selbstverständlich unterliegen sämtliche Ihrer Angaben der Schweigepflicht.
+            Vielen Dank für Ihre Mithilfe! Ihr Institutsteam
+        </div>
+        <input type="hidden" id="anamneseid">
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><input type="text" id="a1" placeholder="Vorname"></div>
+            <div class="ui-block-b"><input type="text" id="a2" placeholder="Nachname"></div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><input type="date" id="a3" placeholder="Geboren am"></div>
+            <div class="ui-block-b"><input type="number" id="a4" placeholder="Alter in Jahren"></div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-a" data-mini="true">
+            <div class="ui-block-a">
+                <input type="radio" name="radio-mini" id="a5" value="f"/>
+                <label for="a5">Weiblich</label>
+
+                <input type="radio" name="radio-mini" id="a6" value="m"/>
+                <label for="a6">Männlich</label>
+
+            </div>
+
+            <div class="ui-block-b">
+                <div><input type="number" id="a7" placeholder="Gewicht in kg"></div>
+
+
+                <div><input type="number" id="a8" placeholder="Grösse in cm"></div>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-solo">
+            <label for="a9">Beruf/Tätigkeit</label>
+<textarea name="textarea" id="a9">
+</textarea>
+        </div>
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Gewohnheiten</h3>
+        </div>
+
+        <div class="ui-grid-none">
+            Rauchen Sie?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a10" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input data-mini="true" id="a11" type="text" placeholder="Wieviel"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input data-mini="true" id="a12" type="text" placeholder="Seit wann?"></div>
+            </div>
+        </fieldset>
+        <div class="ui-grid-none">
+            Trinken Sie regelmässig Alkohol?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a13" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a14" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a15" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+        <div class="ui-grid-none">
+            Haben Sie andauernden Stress?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a16" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a17" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a18" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Treiben Sie Sport?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a19" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a20" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a21" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Ernähren Sie sich gesund?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a22" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a23" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a24" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Schlafen Sie gut und ausreichend?
+
+        </div>
+        <fieldset class="ui-grid-b">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a25" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <div><input type="text" id="a26" placeholder="Wieoft?"></div>
+            </div>
+            <div class="ui-block-c">
+                <div><input type="text" id="a27" placeholder="Welchen?"></div>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Haben Sie Beschwerden an/mit</h3>
+        </div>
+
+        <div class="ui-grid-none">
+            Kopf / Hals / Schilddrüse / Zähnen
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a28" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a29">
+  </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Herz-Kreislaufsystem
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a30" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a31">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Lunge / Atemwege
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a32" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a33">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Magen / Darmsystem
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a34" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a35">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Niere / Blasensystem / Genitalien / Sexualität
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a36" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a37">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Knochen / Muskeln / Gelenksapparat
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a38" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a39">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Allergien
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a40" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a41">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Neurologische Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a42" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a43">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Psychologische Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a44" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a45">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Sonstige Beschwerden
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a46" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a47">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Haben Sie </h3>
+        </div>
+        <div class="ui-grid-none">
+            Bestehende Krankheiten
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a48" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a49">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Frühere Krankheiten
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a50" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a51">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Operationen
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a52" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a53">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Erhöhter Blutdruck
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a54" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a55">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Erhöhte Blutfette
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a56" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a57">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Diabetes
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a58" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a59">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Übergewicht
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a60" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Welche?" id="a61">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-c" data-mini="true">
+            <div class="ui-block-a">
+                Welche Medikament nehmen Sie?
+                Art / Name /Für
+
+            </div>
+            <div class="ui-block-b">
+            </div>
+            <div class="ui-block-c">
+                <textarea name="textarea" placeholder="Welche?" id="a62">
+ </textarea>
+
+
+            </div>
+
+
+        </fieldset>
+        <div class="ui-bar ui-bar-a documentsPageHeader">
+            <h3>Gibt es in Ihrer Familie </h3>
+        </div>
+
+
+        <div class="ui-grid-none">
+            Herzerkrankungen
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a63" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten??" id="a64">
+</textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Bluthochdruck
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a65" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a66">
+</textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Schlaganfälle
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a67" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a68">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Übergewicht
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a69" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a70">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Diabetes
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a71" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a72">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Krebsleiden
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a73" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a74">
+ </textarea>
+            </div>
+        </fieldset>
+
+        <div class="ui-grid-none">
+            Krebsleiden
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a75" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a76">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Rücken- und Gelenkserkrankung
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a77" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a78">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            Allergien
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a79" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a80">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <div class="ui-grid-none">
+            anderes
+
+        </div>
+        <fieldset class="ui-grid-a">
+
+            <div class="ui-block-a">
+
+                <select name="flip-min" id="a81" data-role="slider">
+                    <option value="0">Nein</option>
+                    <option value="1">Ja</option>
+                </select>
+
+            </div>
+            <div class="ui-block-b">
+                <textarea name="textarea" placeholder="Bei welchen Verwandten?" id="a82">
+ </textarea>
+            </div>
+        </fieldset>
+
+
+        <fieldset class="ui-grid-solo" data-mini="true">
+            <label for="a83">Hausarzt</label>
+            <textarea name="textarea" placeholder=" " id="a83">
+</textarea>
+            <input type="radio" name="radio-mini" id="a84" value="1"/>
+            <label for="a84">Sie wurden überwiesen</label>
+
+            <input type="radio" name="radio-mini" id="a85" value="1"/>
+            <label for="a85">Sie kommen aus eigener Initiative</label>
+
+        </fieldset>
+
+
+        <div class="ui-bar ui-bar-b documentsPageHeader">
+            <fieldset class="ui-grid-b">
+                <div class="ui-block-a">
+
+                    <a href="#" id="saveAnamnese" data-role="button">Speichern</a>
+                </div>
+                <div class="ui-block-c">
+                    <a href="#" id="anamneseReleaseDate" data-role="button"> <span id="releaseDate">Freigabe</span></a>
+                </div>
+
+                <div class="ui-block-b">
+
+                    <a href="#" data-role="button">Drucken</a>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x ui-btn-active "></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- SEITE Dokumente -->
+<div data-role="page" id="documents">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+
+    <div data-role="content">
+        <br>
+
+        <ul data-role="listview">
+            <li><a href="#anamnese">Anamnese</a></li>
+            <li><a href="#survey">Fragebögen</a></li>
+            <li><a href="#anker">Kariereanker</a></li>
+            <li><a href="#files">Dateien</a></li>
+            <li><a href="#">Sonstige</a></li>
+
+        </ul>
+
+        <br>
+        <br>
+        <br>
+
+        <script id="_authPortalFiles" type="text/x-tmpl">
+                     {% if (o.showPortalFiles !== undefined ) { %}
+
+                                 <ul data-role="listview">
+            <li><a href="#filescoach">Dokumenten Upload</a></li>
+
+
+        </ul>
+
+
+                     {%  } %}
+
+
+
+
+
+
+        </script>
+
+        <div id="authPortalFiles">
+
+
+        </div>
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x ui-btn-active "></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- SEITE FRAGEBOGEN -->
+<div data-role="page" id="survey">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+            <button class="backButton">
+                <i class="fa fa-rotate-left fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+        <div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
+
+            <p id="authPutSurvey"></p>
+
+            <script id="_authPutSurvey" type="text/x-tmpl">
+                    {%   if (o.showPutSurvey !== undefined ) %}
+                      <a href="#newSurveyDialog" id="showNewSurveyDialog" data-role="button" data-icon="plus">Neu</a>
+
+
+
+            </script>
+        </div>
+
+    </div>
+
+    <div data-role="content">
+        <div class="ui-field-contain">
+
+            <select name="surveydates" id="surveydates" data-native-menu="false">
+
+
+            </select>
+        </div>
+        <div>
+            0=Stimmt überhaupt nicht, 5=Stimmt genau
+        </div>
+        <div data-role="content" id="surveyContent"></div>
+
+
+        <div class="ui-bar ui-bar-b documentsPageHeader">
+            <fieldset class="ui-grid-b">
+
+                <div class="ui-block-a">
+                    <a href="#" id="surveyReleaseDate" data-role="button"> <span id="surveyDate">Freigabe</span></a>
+                </div>
+
+                <div class="ui-block-b">
+
+                    <a href="#" id="printSurvey" data-role="button">Drucken</a>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x ui-btn-active "></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- SEITE KARIEREANKER -->
+<div data-role="page" id="anker">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+            <button class="backButton">
+                <i class="fa fa-rotate-left fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+        </div>
+        <h1>&nbsp;</h1>
+
+        <div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
+
+
+        </div>
+
+
+    </div>
+
+    <div data-role="content">
+
+        <div>
+            1=trifft nicht auf mich zu, 2=trifft kaum auf mich zu, 3=trifft ein wenig auf mich zu, 4=trifft oft auf mich
+            zu, 5=trifft überwiegend auf mich zu, 6=trifft voll auf mich zu
+        </div>
+        <div data-role="content" id="ankerContent"></div>
+
+        <div id="ankerBestMatch">
+
+
+        </div>
+        <div data-role="fieldcontain">
+
+            <p>
+
+                1. Finden Sie nun die am höchsten bewerteten Fragen heraus.
+                <br>
+                2. Addieren Sie zu drei dieser Fragen, die am stärksten auf Sie zutreffen, nochmals jeweils 4 Punkte. Also: wenn Sie eine Frage mit 5 bewertet haben, die besonders auf Sie zutrifft,
+                dann erhält diese Frage den neuen Wert 9, den Sie unten in die Tabelle übertragen.
+                Diesen Vorgang führen Sie bei drei Fragen durch.
+            </p>
+
+            <select data-placeholder="true" multiple="multiple" data-native-menu="false"  id="ankerBestFit">
+
+            </select>
+        </div>
+
+
+
+        <div id="ankerResultTable">
+
+
+        </div>
+        <script id="ankerResultTableTemplate" type="text/x-tmpl">
+
+      <table   id="ankerTable"  class="footable">
+                
+            <thead>
+                    
+            <tr>
+                          
+
+                            
+                <th data-hide="phone">Frage</th>
+                            <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                  <th>Wert</th> 
+                <th data-hide="phone">Frage</th>
+                 <th>Wert</th> 
+                        
+            </tr>
+              
+                
+            </thead>
+                
+            <tbody>
+
+
+            <tr>
+{%   for (var i=0; i< o.length; i++) { %}
+
+                            
+      {%  if (i==8 || i==16 || i==24 || i==32 || i==40) {  %}
+</tr><tr>
+{% } %}
+                     
+                <td  align="right">{%=o[i].sortorder %}</td>
+                            
+                <td  align="right"> <span id=ankerCell{%=o[i].sortorder %}> {%=o[i].rating %} </span></td>
+
+
+                        
+
+
+                
+{% }   %}
+                 
+            </tr>
+ <tr id="ankerTotal">
+  <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal1">
+</span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal2">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal3">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal4">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal5">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal6">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal7">
+ </span>
+   </td>
+     <td  align="right"></td>
+   <td  align="right">
+<span id="ankerTotal8">
+ </span>
+   </td>
+ </tr>
+      </tbody>
+        </table>
+
+
+
+        </script>
+
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x"></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x ui-btn-active "></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- SEITE Kontakt-->
+<div data-role="page" id="vertrag">
+
+
+    <div data-role="header">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+        </div>
+        <h1>&nbsp;</h1>
+
+    </div>
+    <div data-role="content">
+
+        <div class="ui-grid-none ui-responsive">
+
+
+            <p>pca4Business</p>
+
+            <p>Hafenstrasse 20</p>
+
+            <p>CH 8280 Kreuzlingen</p>
+
+            <p>+41 (0)71 667 0537</p>
+
+            <p>www.pca4business.ch</p>
+
+            <p>info@pca4business.ch</p>
+            <br>
+            <br>
+            Schnellnachricht
+
+
+            <div data-role="fieldcontain" data-mini="true">
+                <label for="mailRecipient" class="select">an:</label>
+                <select data-mini="true" data-native-menu="false" name="mailRecipient"
+                        id="mailRecipient">
+
+                    <option value="coach">Coach</option>
+                    <option value="chef">Chef</option>
+                    <option value="alle">Alle</option>
+
+                </select>
+            </div>
+
+            <textarea id="mailText" placeholder="Nachricht eingeben."></textarea>
+
+
+            <a href="#popupBasic" id="sendMessage" data-rel="popup" data-icon="check"
+               class="ui-btn ui-corner-all ui-shadow " data-transition="pop">Versenden</a>
+
+                
+            <div data-role="collapsibleset" data-filter="true" data-inset="true" id="collapsiblesetForFilter"
+                 data-input="#searchForCollapsibleSet">
+                        
+                <div data-role="collapsible" data-filtertext="Animals">
+                                <h3>Nachrichten</h3>
+                             
+                    <ul data-role="listview" data-split-icon="gear" data-inset="true">
+                           
+                        <div id="mailList" data-role="collapsibleset">
+                                
+
+                        </div>
+                    </ul>
+                            
+                </div>
+
+
+            </div>
+
+            <br>
+
+            <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+            <div class="responsiveContainer">
+                <div id="gmap_canvas" class="responsiveContainerCanvas"></div>
+                <style>#gmap_canvas img {
+                    max-width: none !important;
+                    background: none !important;
+                }</style>
+
+            </div>
+
+
+            <script type="text/javascript"> function init_map() {
+                var myOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(47.651516, 9.177764000000025),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(47.651516, 9.177764000000025)
+                });
+                infowindow = new google.maps.InfoWindow({content: "<b>Institut f&uuml;r Beratung und Gesundheit</b><br/>Hafenstrasse 20<br/>8280 Kreuzlingen"});
+                google.maps.event.addListener(marker, "click", function () {
+                    infowindow.open(map, marker);
+                });
+                infowindow.open(map, marker);
+            }
+            google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+
+            <br>
+
+
+            <br>
+
+
+        </div>
+
+    </div>
+    <!-- Content -->
+
+    <div data-role="footer" data-id="Vertrag" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x  ui-btn-active "></i>&nbsp;
+                    </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i class="fa fa-folder-open-o fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+
+</div>
+<!-- /page -->
+
+
+<!-- SEITE AUDIO -->
+<div data-role="page" id="audio">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+    <div data-role="content">
+        <div id="white-noise-player" class="cp-jplayer"></div>
+
+        <div id="wrapper">
+            <div id="content">
+                <div id="music">
+
+                    <div class="player-wrapper">
+                        <div id="cp_container">
+                            <div class="cp-container">
+                                <div class="cp-buffer-holder">
+                                    <div class="cp-buffer-1"></div>
+                                    <div class="cp-buffer-2"></div>
+                                </div>
+                                <div class="cp-progress-holder">
+                                    <div class="cp-progress-1"></div>
+                                    <div class="cp-progress-2"></div>
+                                </div>
+                                <div class="cp-circle-control"></div>
+                                <ul class="cp-controls">
+                                    <li><a href="#" class="cp-play" tabindex="1">play</a></li>
+                                    <li><a href="#" class="cp-pause" style="display:none;" tabindex="1">pause</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="jp-playlist">
+                                <ul>
+                                    <li></li>
+                                    <!-- Empty <li> so your HTML conforms with the W3C spec -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div data-role="footer" data-id="Vertrag" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x "></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i class="fa fa-folder-open-o fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x   ui-btn-active"></i>&nbsp;
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>
+<!-- /page -->
+
+<!-- SEITE Dokumente Upload Coach -->
+<div data-role="page" id="filesCoach">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+            <a href="#" data-rel="back" data-role="button" data-icon="back" data-inline="true">&nbsp;</a>
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+
+
+    <div data-role="content">
+
+        <div>
+
+
+            <form id="fileupload2" action="php/fileupload/index.php" method="POST" enctype="multipart/form-data">
+                <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                <noscript><input type="hidden" name="redirect"
+                                 value="https://blueimp.github.io/jQuery-File-Upload/">
+                </noscript>
+                <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                <div class="row fileupload-buttonbar">
+                    <div class="col-lg-7">
+                        <!-- The fileinput-button span is used to style the file input field as button -->
+                <span class="btn btn-success fileinput-button">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>Add files...</span>
+                    <input type="file" name="files[]" multiple>
+
+                </span>
+                        <button type="submit" class="btn btn-primary start">
+                            <i class="glyphicon glyphicon-upload"></i>
+                            <span>Start upload</span>
+                        </button>
+                        <button type="reset" class="btn btn-warning cancel">
+                            <i class="glyphicon glyphicon-ban-circle"></i>
+                            <span>Cancel upload</span>
+                        </button>
+                        <button type="button" class="btn btn-danger delete">
+                            <i class="glyphicon glyphicon-trash"></i>
+                            <span>Delete</span>
+                        </button>
+                        <input type="checkbox" class="toggle">
+                        <!-- The global file processing state -->
+                        <span class="fileupload-process"></span>
+                    </div>
+                    <!-- The global progress state -->
+                    <div class="col-lg-5 fileupload-progress fade">
+                        <!-- The global progress bar -->
+                        <div class="progress progress-striped active" role="progressbar" aria-valuemin="0"
+                             aria-valuemax="100">
+                            <div class="progress-bar progress-bar-success" style="width:0%;"></div>
+                        </div>
+                        <!-- The extended global progress state -->
+                        <div class="progress-extended">&nbsp;</div>
+                    </div>
+                </div>
+                <!-- The table listing the files available for upload/download -->
+                <table role="presentation" class="table table-striped">
+                    <tbody class="files"></tbody>
+                </table>
+            </form>
+        </div>
+
+
+        <!-- The template to display files available for upload -->
+        <script id="template-upload" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+    <tr class="template-upload fade">
+        <td>
+            <span class="preview"></span>
+        </td>
+        <td>
+            <p class="name">{%=file.name%}</p>
+            <strong class="error text-danger"></strong>
+        </td>
+        <td>
+            <p class="size">Processing...</p>
+            <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar progress-bar-success" style="width:0%;"></div></div>
+        </td>
+        <td>
+            {% if (!i && !o.options.autoUpload) { %}
+            <input type="text"  placeholder="Name angeben">
+
+                <button class="btn btn-primary start" disabled>
+                    <i class="glyphicon glyphicon-upload"></i>
+                     Start
+                </button>
+
+
+            {% } %}
+            {% if (!i) { %}
+                <button class="btn btn-warning cancel">
+                    <i class="glyphicon glyphicon-ban-circle"></i>
+                    <span>Cancel</span>
+                </button>
+            {% } %}
+        </td>
+    </tr>
+{% } %}
+
+
+        </script>
+        <!-- The template to display files available for download -->
+        <script id="template-download" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+    <tr class="template-download fade">
+        <td>
+            <span class="preview">
+                {% if (file.thumbnailUrl) { %}
+                    <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img src="{%=file.thumbnailUrl%}"></a>
+                {% } %}
+            </span>
+        </td>
+        <td>
+            <p class="name">
+                {% if (file.url) { %}
+                    <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
+                {% } else { %}
+                    <span>{%=file.name%}</span>
+                {% } %}
+            </p>
+            {% if (file.error) { %}
+                <div><span class="label label-danger">Error</span> {%=file.error%}</div>
+            {% } %}
+        </td>
+        <td>
+            <span class="size">{%=o.formatFileSize(file.size)%}</span>
+        </td>
+        <td>
+            {% if (file.deleteUrl) { %}
+                <button class="btn btn-danger delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>
+                    <i class="glyphicon glyphicon-trash"></i>
+                    <span>Delete</span>
+                </button>
+                <input type="checkbox" name="delete" value="1" class="toggle">
+            {% } else { %}
+                <button class="btn btn-warning cancel">
+                    <i class="glyphicon glyphicon-ban-circle"></i>
+                    <span>Cancel</span>
+                </button>
+            {% } %}
+        </td>
+    </tr>
+{% } %}
+
+
+        </script>
+
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x "></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x    ui-btn-active"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<!-- SEITE DATEIEN  -->
+<div data-role="page" id="files">
+    <div data-role="header" data-position="inline">
+        <div class="ui-btn-left" data-role="controlgroup" data-type="horizontal">
+
+            <button class="portalButton">
+                <i class="fa fa-home fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+            <button class="backButton">
+                <i class="fa fa-rotate-left fa-stack-2x"></i>&nbsp;&nbsp;</button>
+
+
+        </div>
+        <h1>&nbsp;</h1>
+
+
+    </div>
+
+
+    <div class="ui-content" role="main">
+
+        <div>
+
+
+            <form id="fileupload" action="php/fileupload/index.php" method="POST" enctype="multipart/form-data">
+                <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                <noscript><input type="hidden" name="redirect"
+                                 value="https://blueimp.github.io/jQuery-File-Upload/">
+                </noscript>
+
+                <!-- The table listing the files available for upload/download -->
+                <table role="presentation" class="table table-striped">
+                    <tbody class="files"></tbody>
+                </table>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <!-- /panel -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li>
+                    <a class="list-group-item" href="#calendar"><i class="fa fa-calendar fa-2x"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#vertrag"><i class="fa fa-users fa-2x "></i>&nbsp; </a>
+                </li>
+
+                <li>
+                    <a class="list-group-item" href="#documents"><i
+                            class="fa fa-folder-open-o fa-2x    ui-btn-active"></i>&nbsp; </a>
+
+                </li>
+                <li>
+                    <a class="list-group-item" href="#audio"><i class="fa fa-bullhorn fa-2x"></i>&nbsp; </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+    <!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<!-- -------------------------------------------------------------------
+----   DIALOGE --- DIALOGE --- DIALOGE --- DIALOGE
+----------------------------------------------------------------------->
+
+<!-- NEUES EVENT DIALOG-->
+<div data-role="dialog" data-transition="pop" data-close-btn="right" id="newEventDialog">
+
+    <div data-role="header">
+        <h2>Termin</h2>
+    </div>
+
+    <div data-role="content">
+        <input type="hidden" id="currentEventDate">
+        <input type="hidden" id="eventId">
+        <input type="hidden" id="eventUrl">
+
+        <div data-role="fieldcontain" data-mini="true">
+            <label for="eventUsers" class="select">Termin für Klient</label>
+            <select data-mini="true" name="eventUsers" id="eventUsers" data-native-menu="false">
+
+            </select>
+        </div>
+
+        <div class="ui-field-contain" data-mini="true">
+            <label for="eventType" class="select">Typ</label>
+            <select data-mini="true" name="eventType" id="eventType" data-native-menu="false">
+                <option value="Meeting">Meeting</option>
+                <option value="Training">Training</option>
+                <option value="Milestone">Erstgespräch</option>
+                <option value="Demo">Demo</option>
+            </select>
+        </div>
+
+
+        <input type="text" data-mini="true" data-inline="true" name="eventTitle" placeholder="Titel angeben."
+               id="eventTitle"
+               value="">
+
+        <input name="eventDate" data-mini="true" data-inline="true" placeholder="Datum angeben." id="eventDateSelected"
+               type="date"
+               data-role="datebox"
+               data-options='{  "useLang":"de"
+                                 ,  "overrideDateFormat": "%d.%m.%Y"
+                                 ,  "mode": "calbox"
+                                 ,  "useClearButton": true
+                                 ,  "useTodayButton": true
+                                 ,  "closeCallback":"dateFormatter"
+                               }'>
+
+        <input name="eventTime" data-mini="true" data-inline="true" placeholder="Zeit angeben." id="eventTimeSelected"
+               type="time"
+               data-role="datebox" data-options='{ "overrideDateFormat": "%k:%M"
+                                                     , "mode": "timebox"
+                                                     , "useLang":"de"
+                                                     ,  "closeCallback":"timeFormatter"
+                                                     }'>
+        <textarea id="eventDescription" placeholder="Bemerkungen eingeben."></textarea>
+
+
+        <label for="eventDocs">Dokumente</label>
+
+        <form id="eventDocs" class="ui-grid-a">
+
+            <div class="ui-block-a">
+                 <input type="checkbox" data-mini="true" name="cbSurvey" id="cbSurvey">
+                        <label for="cbSurvey">Fragebogen zur Sitzung</label>
+                        <input type="checkbox" data-mini="true" name="cbKarriereanker" id="cbKarriereanker">
+                        <label for="cbKarriereanker">Karriereanker</label>
+                        <input type="checkbox" data-mini="true" name="cbAnamnese" id="cbAnamnese">
+                        <label for="cbAnamnese">Anamnesebogen</label>
+            </div>
+            <div class="ui-block-b">
+                   <label for="cbGeneralInformation">Allgemeine Informationen</label>
+                        <input type="checkbox" data-mini="true" name="cbGeneralInformation" id="cbGeneralInformation">
+                        <label for="cbOthers">Sonstige</label>
+                        <input type="checkbox" data-mini="true" name="cbOthers" id="cbOthers">
+                       
+            </div>
+            <div class="ui-block-c">
+
+            </div>
+        </form>
+            
+        <form id="ctrlNewEvent" class="ui-grid-b">
+            <div class="ui-block-a">  
+
+                <button data-mini="true" type="submit" data-inline="true" data-icon="check" id="saveNewEvent">
+                    Speichern
+                </button>
+            </div>
+            <div class="ui-block-b">
+                <button data-mini="true" type="submit" data-inline="true" data-icon="back" id="cancelNewEvent">
+                    Abbrechen
+                </button>
+            </div>
+            <div class="ui-block-c">
+                <button data-mini="true" type="submit" data-inline="true" data-icon="delete" id="deleteNewEvent">
+                    L&ouml;schen
+                </button>
+            </div>
+        </form>
+
+
+    </div>
+</div>
+
+
+<!-- DATEI BEZEICHNUNG   DIALOG-->
+
+<div data-role="dialog" id="setFileDisplayName" data-close-btn="right">
+     
+        <h1>Name der Datei</h1>
+       
+      
+            <h3 class="ui-title">Bitte eine Bezeichnung angeben.</h3>
+      
+           <input type="text" id="fileDisplayName" placeholder="Bezeichnung der Datei">
+
+
+    <label for="documentUsers" class="select">Dokument für Klient</label>
+    <select name="documentUsers" id="documentUsers">
+
+    </select>
+
+
+       
+    <button id="saveFileDisplayName">Speichern</button>
+       
+    <button id="closeFileDisplayName">Abbrechen</button>
+
+</div>
+
+
+<!-- NEUER FRAGEBOGEN DIALOG-->
+<div data-role="dialog" id="newSurveyDialog" data-transition="pop" data-close-btn="right"
+     data-close-btn-text="Speichern">
+
+    <div data-role="header">
+        <h2>Neuer Fragebogen</h2>
+    </div>
+
+    <div data-role="content">
+
+        <div data-role="fieldcontain">
+            <label for="surveyUsers" class="select">Fragebogen für Klient</label>
+            <select name="surveyUsers" id="surveyUsers" data-native-menu="false">
+
+            </select>
+        </div>
+
+        <div data-role="fieldcontain">
+            <label for="eventDates" class="select">Fragebogen für</label>
+            <select name="eventDates" id="eventDates" data-native-menu="false">
+
+            </select>
+        </div>
+
+
+        <fieldset>
+
+            <button type="submit" data-inline="true" data-icon="check" id="saveNewSurvey">
+                Speichern
+            </button>
+            <button type="submit" data-inline="true" data-icon="back" id="cancelNewSurvey">
+                Abbrechen
+            </button>
+
+
+        </fieldset>
+    </div>
+</div>
+
+<!-- /dialog -->
+
+
+<!-- NEUER USER ADRESS DIALOG -->
+<div data-role="dialog" id="userdialog" data-transition="pop" data-close-btn="right">
+    <div data-role="header">
+        <h2>Nutzer</h2>
+
+    </div>
+    <div data-role="content">
+        <section id="container">
+
+
+            <div id="wrapping" class="clearfix">
+                <section id="aligned">
+                    <input type="text" name="surname" id="surname" placeholder="Vorname" autocomplete="off"
+                           tabindex="1"
+                           class="txtinput">
+                    <input type="text" name="lastname" id="lastname" placeholder="Nachname" autocomplete="off"
+                           tabindex="1"
+                           class="txtinput">
+
+
+                    <input type="date" name="birthday" id="birthday" placeholder="Geburtstag"
+                           tabindex="4" class="txtinput">
+
+
+                    <input type="tel" name="phone" id="phone" placeholder="Telefon"
+                           tabindex="4" class="txtinput">
+
+
+                </section>
+
+
+            </div>
+
+            <section id="buttons">
+                <input type="button" class="backButton" value="Abbrechen">
+                <input type="button" id="saveuser" tabindex="7"
+                       value="Speichern">
+                <br style="clear:both;">
+            </section>
+
+        </section>
+
+    </div>
+</div>
+<!-- -------------------------------------------------------------------
+---- MESSAGES --- MELDUNGEN --- MESSAGES --- MELDUNGEN
+----------------------------------------------------------------------->
+
+<div id="errorPopup" data-role="dialog" data-transition="pop" data-close-btn="right">
+    <div data-role="header">
+        <div>
+            <h2>Error</h2>
+
+        </div>
+    </div>
+    <div data-role="content">
+        <div>
+            <p id="usermsg"></p>
+
+            <p id="techmsg"></p>
+        </div>
+    </div>
+</div>
+
+<div id="popupMail" data-role="dialog" data-transition="pop" data-close-btn="right">
+    <div data-role="header">
+        <h2>Nachricht</h2>
+    </div>
+    <div data-role="content">
+        <div>
+            Ihre Nachricht wurde gesendet.
+        </div>
+    </div>
+</div>
+
+<div id="popupUser" data-role="dialog" data-transition="pop" data-close-btn="right">
+    <div data-role="header">
+        <h2>Nutzer</h2>
+    </div>
+    <div data-role="content">
+        <div>
+            Ihre Daten wurden gespeichert.
+        </div>
+    </div>
+</div>
+
+<div data-role="page" class="type-interior">
+    <div data-role="content" class="ui-body" id="bewertungWaehlen">
+        <div data-role="popup">
+            Bitte eine Wertung ausw&auml;hlen.
+        </div>
+    </div>
+</div>
+
+<div data-role="page" class="type-interior">
+    <div data-role="content" class="ui-body" id="ratingDatumWaehlen">
+        <div data-role="popup">
+            Bitte erst ein Datum ausw&auml;hlen.
+        </div>
+    </div>
+</div>
+
+<div data-role="page" class="type-interior">
+    <div data-role="content" class="ui-body" id="subTargetDescriptionPopup">
+        <div data-role="popup">
+            <textarea id="subTargetDescriptionPopupText"></textarea>
+
+
+        </div>
+    </div>
+</div>
+
+<div id="savedPopup" data-role="page" class="type-interior">
+    <div data-role="content" class="ui-body">
+        <div data-role="popup">
+            Ihre Daten wurden gespeichert.
+        </div>
+    </div>
+</div>
+
+<div id="releaseAnamnese" data-role="page" class="type-interior">
+    <div data-role="content" class="ui-body">
+        <div data-role="popup">
+            Mit Freigabe der Anamnese werden die Daten sichtbar für Ihren Coach und können nicht mehr geändert werden.
+            <br>
+
+            <p>Wollen Sie die Daten frei geben?</p>
+            <br>
+            <button id="releaseAnamneseYes">Ja</button>
+            <button id="releaseAnamneseNo">Nein</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Event Page -->
+<script type="text/javascript" src="js/eventCalendar/jquery.eventCalendar.min.js"></script>
+<script type="text/javascript" src="js/eventCalendar/jquery.timeago.js"></script>
+
+<!--
+<script type="text/javascript" src="cordova.js"></script>
+-->
+
+
+
+<!--
+<script>
+//	unloadAllJS;
+</script>
+-->
+
+<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+<script src="js/vendor/jquery.ui.widget.js"></script>
+<!-- The Templates plugin is included to render the upload/download listings -->
+<script src="js/blueimp/tmpl.min.js"></script>
+<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+<script src="js/blueimp/load-image.all.min.js"></script>
+<!-- The Canvas to Blob plugin is included for image resizing functionality -->
+<script src="js/blueimp/canvas-to-blob.min.js"></script>
+
+<!-- blueimp Gallery script -->
+<script src="js/blueimp/jquery.blueimp-gallery.min.js"></script>
+<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+<script src="js/fileupload/jquery.iframe-transport.js"></script>
+<!-- The basic File Upload plugin -->
+<script src="js/fileupload/jquery.fileupload.js"></script>
+<!-- The File Upload processing plugin -->
+<script src="js/fileupload/jquery.fileupload-process.js"></script>
+<!-- The File Upload image preview & resize plugin -->
+<script src="js/fileupload/jquery.fileupload-image.js"></script>
+<!-- The File Upload audio preview plugin -->
+<script src="js/fileupload/jquery.fileupload-audio.js"></script>
+<!-- The File Upload video preview plugin -->
+<script src="js/fileupload/jquery.fileupload-video.js"></script>
+<!-- The File Upload validation plugin -->
+<script src="js/fileupload/jquery.fileupload-validate.js"></script>
+<!-- The File Upload user interface plugin -->
+<script src="js/fileupload/jquery.fileupload-ui.js"></script>
+<!-- The main application script -->
+<script src="js/fileupload/main.js"></script>
+<!-- The XDomainRequest Transport is included for cross-domain file deletion for IE 8 and IE 9 -->
+<!--[if (gte IE 8)&(lt IE 10)]>
+<script src="js/cors/jquery.xdr-transport.js"></script>
+-->
+</body>
+
+</html>

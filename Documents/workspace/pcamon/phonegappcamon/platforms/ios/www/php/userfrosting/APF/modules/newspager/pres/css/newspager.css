@@ -1,0 +1,49 @@
+.apf-news-pager {
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px #666666;
+    font-size: 0.8em;
+    min-height: 8em;
+    overflow: hidden;
+    position: relative;
+}
+
+.apf-news-pager .news {
+    padding: 0 2em;
+    position: relative;
+}
+
+.apf-news-pager:after {
+    clear: both;
+}
+
+.apf-news-pager a {
+    color: #0A437C;
+    font-size: 2em;
+    top: 0;
+    z-index: 100;
+    position: absolute;
+    background: #eee;
+    text-decoration: none;
+}
+
+.apf-news-pager .prev {
+    box-shadow: 2px 0 2px #888;
+    left: 0;
+}
+
+.apf-news-pager .next {
+    box-shadow: -2px 0 2px #888;
+    left: auto;
+    right: 0;
+}
+
+.apf-news-pager .news .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apf-news-pager .news h3,
+.apf-news-pager .news h4 {
+    margin-top: .5em;
+}

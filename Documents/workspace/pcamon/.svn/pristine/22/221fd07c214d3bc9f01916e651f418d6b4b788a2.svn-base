@@ -1,0 +1,112 @@
+<doku:title parent="119" tags="singleton,registry" title="Registry" urlname="Registry">
+   Die Registry dient im Adventure PHP Framework als zentrale Stelle für die Speicherung von globalen
+   Konfigurationsparametern. Parameter sind in diesem Zusammenhang sowohl einfache Datentypen wie Zeichenketten und
+   Zahlen als auch Objekte.
+</doku:title>
+<h3 id="Chapter-1-Einleitung"><a href="#Chapter-1-Einleitung">1. Einleitung</a></h3>
+<p>
+   Die <em>Registry</em> (siehe <a class="external" href="http://martinfowler.com/eaaCatalog/registry.html">Registry</a>)
+   dient im Adventure PHP Framework als zentrale Stelle für die Speicherung von globalen Konfigurationsparametern.
+   Parameter sind in diesem Zusammenhang sowohl einfache Datentypen wie Zeichenketten und Zahlen als auch Objekte.
+</p>
+<p>
+   Die <em>Registry</em> wird auch hinsichtlich der Konfiguration des APF von einigen Komponenten aus dem <em>core</em>-
+   und <em>tools</em>-Bereich verwendet. Die folgende Liste zeigt die genutzten Werte:
+</p>
+<table>
+   <thead>
+      <tr>
+         <td>Namespace</td>
+         <td>Schlüssel</td>
+         <td>Standard-Wert</td>
+         <td>Beschreibung</td>
+         <td>Verwendung</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><em>APF\core</em></td>
+         <td><em>Environment</em></td>
+         <td><em>DEFAULT</em></td>
+         <td>
+            Definiert die Umgebung, in der die Applikation eingesetzt wird.
+         </td>
+         <td>
+            Details zur Anwendung finden Sie unter <int:link pageid="134" />.
+         </td>
+      </tr>
+      <tr>
+         <td><em>APF\core</em></td>
+         <td><em>InternalLogTarget</em></td>
+         <td><em>apf</em></td>
+         <td>
+            Definiert den Namen des Standard-Log-Ziels.
+         </td>
+         <td>
+            Details zur Anwendung finden Sie unter <int:link pageid="023" />.
+         </td>
+      </tr>
+      <tr>
+         <td><em>APF\core</em></td>
+         <td><em>Charset</em></td>
+         <td><em>UTF-8</em></td>
+         <td>
+            Definiert den für String-Funktionen definierten Zeichensatz.
+         </td>
+         <td>
+            Der Zeichensatz kommt beispielsweise bei <em>htmlspecialchars()</em>- bzw. <em>htmlentities()</em>-Aufrufen
+            zum Einsatz.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<h3 id="Chapter-2-Einsatz-der-Registry"><a href="#Chapter-2-Einsatz-der-Registry">2. Einsatz der Registry</a></h3>
+<p>
+   Die <em>Registry</em> steht als statischer Container zur Konfiguration von Parametern
+   des Frameworks und eigenen zur Verfügung. Die Methode <em>register()</em> dient dazu,
+   bereits vorhandene Werte zu manipulieren oder neue Werte hinzuzufügen. Die Funktion
+   <em>retrieve()</em> bezieht Werte aus der Registry. Um eine definierte Abgrenzung zwischen
+   Wertebereichen zu schaffen, besitzt die <em>Registry</em> Namespaces. Um auch bei der Verwendung
+   durch weitere Applikationen keine Überschneidung von Wertebereichen zu generieren, ist es ratsam,
+   den Namespace der Applikation als Namespace in der Registry zu verwenden.
+</p>
+<p>
+   Um die oben genannten Standard-Werte zu manipulieren, kann folgender PHP-Code eingesetzt werden:
+</p>
+<gen:highlight type="php">
+Registry::register('APF\core', 'Environment', 'TESTSERVER');
+Registry::register('APF\core', 'InternalLogTarget', 'foo');
+Registry::register('APF\core', 'Charset', 'UTF-16');
+</gen:highlight>
+<p>
+   Bei der Manipulation der Standard-Werte oder auch von eigenen Registry-Einträgen ist darauf zu
+   achten, dass diese vor dem Erstellen des Page- bzw. FrontControllers geändert werden. Details zur Konfiguration
+   Ihrer Anwendung in der Bootstrap-Datei können Sie im Kapitel <int:link pageid="013" anchor="Chapter-6-Basiskonfiguration" /> nachlesen.
+</p>
+<p>
+   Das Auslesen der zuvor gesetzten Werte lässt sich wie folgt erledigen:
+</p>
+<gen:highlight type="php">
+$env = Registry::retrieve('APF\core', 'Environment');
+$logTarget = Registry::retrieve('APF\core', 'InternalLogTarget');
+$charset = Registry::retrieve('APF\core', 'Charset');
+</gen:highlight>
+
+<h3 id="Chapter-3-Schreibschutz"><a href="#Chapter-3-Schreibschutz">3. Schreibschutz</a></h3>
+<p>
+   Um bei Einträgen für eigene Applikationen sicher gehen zu können, dass diese während
+   der Laufzeit nicht mehr verändert werden können, bietet die <em>Registry</em> einen Schreibschutz.
+   Dieser kann mit einem optionalen Parameter bei der Befüllung eines Wertes aktiviert werden und
+   bleibt bis zum Ende des Requests erhalten. Hierzu kann folgendes Beispiel als Quellcode-Vorlage
+   hinzugezogen werden:
+</p>
+<gen:highlight type="php">
+// Wird erfolgreich durchgeführt
+Registry::register('VENDOR\module', 'param-one', 1, true);
+
+// Erzeugt eine Exception
+Registry::register('VENDOR\module', 'param-one', 2);
+</gen:highlight>
+
+<core:importdesign namespace="APF\modules\comments\pres\templates" template="comment" categorykey="de_067" />

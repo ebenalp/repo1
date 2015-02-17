@@ -1,0 +1,17 @@
+2015-02-09 19:21:00.877 pcamon[44055:1505582] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cc/Library/Developer/CoreSimulator/Devices/16062969-9B96-4602-8F10-12DB85D24777/data/Containers/Data/Application/72DCD45F-1B12-4A52-9198-5551675F3ACE/Library/Cookies/Cookies.binarycookies
+2015-02-09 19:21:01.194 pcamon[44055:1505582] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-09 19:21:01.194 pcamon[44055:1505582] Multi-tasking -> Device: YES, App: YES
+2015-02-09 19:21:01.214 pcamon[44055:1505582] Unlimited access to network resources
+2015-02-09 19:21:01.224 pcamon[44055:1505582] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-09 19:21:01.738 pcamon[44055:1505582] active
+2015-02-09 19:21:01.742 pcamon[44055:1505582] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-02-09 19:21:02.055 pcamon[44055:1505582] Resetting plugins due to page load.
+2015-02-09 19:21:02.870 pcamon[44055:1505582] Finished load of: file:///Users/cc/Library/Developer/CoreSimulator/Devices/16062969-9B96-4602-8F10-12DB85D24777/data/Containers/Bundle/Application/EB3E8870-4669-4A54-95E0-D906B29B9731/pcamon.app/www/index.html
+2015-02-09 19:23:04.941 pcamon[44055:1510354] Terminating since there is no system app.

@@ -1,0 +1,13 @@
+{
+    "name": "pcamon",
+    "version": "0.0.1",
+    "surveyEvents" : ["Meeting"],
+    "numberPortalEvents" : 4,
+    "loginServer"   : "http://www.andaro.ch/",
+    "backendServer" : "http://www.andaro.ch/",
+    "serverDir"     : "apps/pcamon/dist/",
+    "loginDir"      : "apps/pcamon/dist/php/userfrosting/"
+}
+
+
+

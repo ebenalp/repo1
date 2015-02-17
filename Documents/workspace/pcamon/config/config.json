@@ -1,0 +1,13 @@
+{
+    "name": "pcamon",
+    "version": "0.0.1",
+    "surveyEvents" : ["Meeting"],
+    "numberPortalEvents" : 4,
+    "loginServer"   : "http://localhost/",
+    "backendServer" : "http://localhost/",
+    "appDir"        : "pcamon/dist/",
+    "serverDir"     : "pcamon/dist/",
+    "loginDir"      : "pcamon/php/userfrosting/",
+    "loginDir"      : "pcamon/dist/php/userfrosting/"
+
+}

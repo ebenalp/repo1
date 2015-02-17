@@ -1,0 +1,12 @@
+
+@media (max-width: 320px) {
+
+
+    .pcamon_size  { font-size: 12px; }
+
+
+}
+@media (min-width: 321px) {
+
+    .pcamon_size  { font-size: 14px; }
+}

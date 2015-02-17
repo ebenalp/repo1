@@ -1,0 +1,306 @@
+.ui-dialog-contain {
+	position: relative;
+	top: -15px;
+	margin: 10% auto 15px auto;
+	padding: 0;
+	width: 92.5%;
+}
+
+
+
+#button-set {
+	float: right;
+	margin-top: 0px;
+}
+#buttonChart {
+	float: right;
+	margin-top: 0px;
+}
+
+.descButtonHide {
+	display: none;
+}
+
+.dummyClass {
+}
+
+
+.eventsCalendar-loading {
+	position: absolute;
+	top: 145px;
+	left: 85px;
+	z-index: 4;
+}
+
+.eventsCalendar-list-wrap {
+
+	position: static;
+}
+
+
+
+/* Swipe works with mouse as well but often causes text selection. */
+#demo-page * {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+/* Arrow only buttons in the header. */
+
+
+/* Content styling. */
+dl {
+	padding: 1em;
+	font-family: "Times New Roman", Times, serif;
+}
+dt {
+	font-weight: bold;
+	font-size: 2em;
+}
+dt span {
+	margin-left: .5em;
+	color: #777;
+	font-size: .5em;
+}
+dd {
+	margin: 1em 0 0;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #eee;
+	font-size: 1.25em;
+}
+.back-btn {
+	float: right;
+	margin: 0 2em 1em 0;
+}
+
+.divider {
+	padding: 5px;
+	border-bottom: 1px solid white;
+	background: rgb(237, 237, 237);
+	background: -moz-linear-gradient(30deg, rgb(237, 237, 237) 10%, rgb(212, 212, 212) 99%);
+	background: -webkit-linear-gradient(30deg, rgb(237, 237, 237) 10%, rgb(212, 212, 212) 99%);
+	background: -o-linear-gradient(30deg, rgb(237, 237, 237) 10%, rgb(212, 212, 212) 99%);
+	background: -ms-linear-gradient(30deg, rgb(237, 237, 237) 10%, rgb(212, 212, 212) 99%);
+	background: linear-gradient(120deg, rgb(237, 237, 237) 10%, rgb(212, 212, 212) 99%);
+}
+
+.row_b .ui-btn {
+	width: 24.5%;
+	text-align: center;
+}
+
+.box {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+ 
+   width: 90% ;
+   -webkit-border-radius: 5px ;
+	-moz-border-radius: 5px;
+	background: #ffffff;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.4);
+
+
+	 
+}
+
+.boxheader {
+	margin-top:40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+   width: 90% ;
+  -webkit-border-radius: 5px ;
+ 
+	-moz-border-radius: 5px;
+	background: #f5f5f5;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.4);
+}
+
+.portal {
+margin: 0 auto;
+margin-top: 10px;
+	border: 1px solid #FFF;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #ffffff;
+box-shadow: 1px 2px 4px rgba(0,0,0,.4);
+	text-shadow:0;
+
+ 
+}
+
+.portal h2 {
+	font-weight: normal;
+	font-size: 16px;
+}
+.portal h3 {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.portalcol2
+{
+	margin-left:0px;
+}
+
+#portalEventsTable td
+{
+    margin: 5px;
+    padding:4px;
+}
+
+.coaches{
+
+	background: rgb(44,62,80);
+	color:#ffffff;
+}
+
+
+.links {
+	float:left;
+
+}
+.rechts {
+	float:right;
+}
+.clear {
+	clear:left;
+}
+.overlaydiv {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .8) url('images/wait.gif') 50% 50% no-repeat;
+}
+
+body.loading {
+	overflow: hidden;
+}
+
+body.loading .overlaydiv {
+	display: block;
+}
+
+#map  { margin:10px;
+	    padding: 20px;  !important;
+	   min-height:600px;
+	   width:90%;  }
+
+#loggedInUser {
+	margin-right: 10px;
+}
+.apple{
+	border: 1px solid #FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #f5f5f5;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.4);
+
+}
+body {
+	display: none;
+
+
+
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+}
+
+td {
+	margin:5px;
+	padding:5px;
+}
+
+.documentsPageHeader
+{
+	margin-top: 25px;
+	margin-bottom: 20px;
+
+}
+
+.responsiveContainer {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 56%;
+	height: 0;
+}
+
+.responsiveContainerCanvas  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*  portrait */
+@media screen and  (max-width : 415px) {
+	#portalheader {
+		margin-left: 43px;
+		text-align: left;
+		font-size: medium;
+
+	}
+
+}
+
+@media (max-width: 375px) {
+
+	#logout  span:nth-child(2)::after  { content: 'X' }
+	.navCalendar span::after { content: '<i class="fa fa-camera-retro fa-3x"></i> fa-3x'}
+	input[type="radio"] label::after { content: 'N'}
+
+}
+@media (min-width: 376px) {
+
+	#logout  span:nth-child(2)::after { content: 'Abmelden' }
+	.navCalendar span::after { content: 'Termine' }
+}
+
+a{
+
+    text-decoration:none;
+	text-shadow: none;
+
+}
+
+textarea {
+	width: 300px;
+	height: 7em;
+	line-height: 1.5em;
+}
+
+/* Filterable User List on Portal Page */
+.ui-selectmenu.ui-popup .ui-input-search {
+	    margin-left: .5em;
+	    margin-right: .5em;
+}
+.ui-selectmenu.ui-dialog .ui-content {
+	    padding-top: 0;
+}
+.ui-selectmenu.ui-dialog .ui-selectmenu-list {
+	    margin-top: 0;
+}
+.ui-selectmenu.ui-popup .ui-selectmenu-list li.ui-first-child .ui-btn {
+	    border-top-width: 1px;
+	    -webkit-border-radius: 0;
+	    border-radius: 0;
+}
+.ui-selectmenu.ui-dialog .ui-header {
+	    border-bottom-width: 1px;
+}
+
+.setFileDisplayName{
+	height: 600px;
+}
+

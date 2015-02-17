@@ -1,0 +1,12 @@
+dependencies: \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/pcamon/Plugins/org.apache.cordova.dialogs/CDVNotification.m \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/pcamon/Plugins/org.apache.cordova.dialogs/CDVNotification.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Applications/MAMP/htdocs/pcamon/phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h

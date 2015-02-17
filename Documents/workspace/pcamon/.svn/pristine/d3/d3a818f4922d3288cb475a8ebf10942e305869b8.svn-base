@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="139b67bd-a688-4eba-a9b7-cc99c20ec16b" name="Default" comment="Working Version">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/user_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/dbconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-process.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/2048_1496.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dataBox/datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config_remote.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/push.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/ankercreation_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/blueimp/canvas-to-blob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/survey_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/768_1024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/anamnese.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/anamnese_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/1536_2048.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/isloggedin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/eventswithsurvey_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/loaddata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/classes/survey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/auth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/blueimp/tmpl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/files/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/events_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/define.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config_local.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anamnese_save.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/anker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/animate/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/classes/anker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/placeholder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/files/thumbnail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.iframe-transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/UploadHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/768_1004.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/blueimp/jquery.blueimp-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/anamnese_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/placeholder/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/ajax/mail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/blueimp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/classes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/files" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/blueimp/load-image.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/classes/anamnese.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/mail_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/1536_2008.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/event_del.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/320_480.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/anker_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/2048_1536.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/event_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/user_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/ajax/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/640_1136.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/andaro/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/event_documents_create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload/files/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/1024_748.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/classes/event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/anker_get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/blueimp-galery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/640_960.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/animate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/surveycreation_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/event_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/survey_put.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/andaro/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/fileupload" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/images/splash/1024_768 .png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/redbeanphp/config/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fileupload/jquery.fileupload-video.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasAxisLabelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_pdf417_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/urd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/mlt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/fra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/hye.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.json2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.dragable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.bubbleRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.logAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/utf8test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/eng.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/FirePHPCore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/pol.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ita.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/ispinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/ititle_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/logo_example.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/kor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_pdf417_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mekkoAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery-mobile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.funnelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.BezierCurveRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/FirePHPCore/fb.php4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.ohlcRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.dragable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jquery.jqplot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/login_script.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.barRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.ohlcRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/table_data_demo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/tcpdf_signature.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ron.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/FirePHPCore/FirePHP.class.php4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.ciParser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasAxisTickRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/heb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/jquery-1.3.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.donutRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.trendline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.ciParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/ajax_login_module.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mobile.splitview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_1d_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/slv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_datamatrix_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/icontainer_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/logo_example.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/hat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/vertrag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/jpn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_qrcode_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_datamatrix_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/spa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/rus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/andaro/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/bug.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/swa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_pdf417_png.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/tcpdf_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.categoryAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/nob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ind.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pieRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/eus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.logAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/testsvg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/itext_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.enhancedLegendRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/hrv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.enhancedLegendRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_datamatrix_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mobile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/dan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.blockRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/glg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/zho.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.dateAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/swe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/eventlog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/afr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/por.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ara.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.categoryAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasOverlay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/pelican.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/tiger.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/ajaxLoginModule.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json/events.json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mobile.splitview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/est.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/mkd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/bul.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/tcpdf_cell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/ziele.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pieRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pointLabels.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_qrcode_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/config/tcpdf_config_alt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/cert/tcpdf.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/image_with_alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_1d_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ukr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.dateAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/aze.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/tcpdf_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/image_demo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.meterGaugeRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/utils/rstojason.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/chapter_demo_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/utils" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json/events.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasOverlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mekkoAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json/event.humanDate.json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mekkoRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.PREVIEW-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manifest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.json2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/bel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_datamatrix_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/srp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.highlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/easy-install.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/pca4business.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pointLabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/nld.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/hun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/logo_example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.donutRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidGridRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/sqi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_qrcode_svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/yid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/survey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/gle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/_blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/example_012.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/ger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/FirePHPCore/FirePHP.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.BezierCurveRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.mekkoRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/tcpdf_barcodes_2d_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.blockRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/cert/tcpdf.p12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.bubbleRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/cert" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/cym.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/cert/tcpdf.fdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/files/isubmit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/bra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.cursor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasTextRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.funnelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidGridRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/far.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/data/chapter_demo_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.meterGaugeRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/FirePHPCore/fb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/chi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.trendline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mobile.grids.collapsible.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.pyramidRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login/welcome.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_1d_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jquery.jqplot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/cat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/kat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery-mobile/images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_qrcode_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.barRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/json/keithjson.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.canvasTextRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/charts/jqplot.cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/images/tux.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/lang/msa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_2d_pdf417_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/example_1d_svgi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/tcpdf/doc/barcodes/tcpdf_barcodes_1d_include.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.sidr.dark.css" afterPath="$PROJECT_DIR$/styles/css/jquery.sidr.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_static.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/tcpdf_parser.php" afterPath="$PROJECT_DIR$/php/tcpdf/tcpdf_parser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/paradigmaLogo.png" afterPath="$PROJECT_DIR$/styles/img/paradigmaLogo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.sidr.light.scss" afterPath="$PROJECT_DIR$/styles/css/jquery.sidr.light.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/CHANGELOG.TXT" afterPath="$PROJECT_DIR$/php/tcpdf/CHANGELOG.TXT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jqm-datebox-1.3.0.css" afterPath="$PROJECT_DIR$/styles/css/jqm-datebox-1.3.0.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/styles/css/images/icons-36-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/bg_jRatingInfos.png" afterPath="$PROJECT_DIR$/styles/css/images/bg_jRatingInfos.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach.min.css" afterPath="$PROJECT_DIR$/styles/css/coach.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/styles/css/images/icons-36-black.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/small.png" afterPath="$PROJECT_DIR$/styles/css/images/small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/login.php" afterPath="$PROJECT_DIR$/php/login_old.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar/eventsCalendarIcon_250.png" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar/eventsCalendarIcon_250.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/fnc.js" afterPath="$PROJECT_DIR$/js/andaro/fnc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/styles/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/eventsCalendarIcon_250.png" afterPath="$PROJECT_DIR$/styles/img/eventsCalendarIcon_250.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/indicator.gif" afterPath="$PROJECT_DIR$/styles/css/images/indicator.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css" afterPath="$PROJECT_DIR$/styles/css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/eventCalendar.css" afterPath="$PROJECT_DIR$/styles/css/eventCalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticai.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticai.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freefont-20120503/ChangeLog" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freefont-20120503/ChangeLog" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/jaime.png" afterPath="$PROJECT_DIR$/styles/img/jaime.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/gae-python/static/favicon.ico" afterPath="$PROJECT_DIR$/server/gae-python/static/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/visualize.css" afterPath="$PROJECT_DIR$/styles/css/visualize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/config/tcpdf_config.php" afterPath="$PROJECT_DIR$/php/tcpdf/config/tcpdf_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/ae_fonts_2.0/ChangeLog" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/ae_fonts_2.0/ChangeLog" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/eventCalendar_theme.css" afterPath="$PROJECT_DIR$/styles/css/eventCalendar_theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/coaching.iml" afterPath="$PROJECT_DIR$/.idea/pcamon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.jqplot.css" afterPath="$PROJECT_DIR$/styles/css/jquery.jqplot.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/sRGB.icc" afterPath="$PROJECT_DIR$/php/tcpdf/include/sRGB.icc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/barcodes/datamatrix.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/barcodes/datamatrix.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fileupload/files/IMG_0028.PNG" afterPath="$PROJECT_DIR$/php/fileupload/files/IMG_0028.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images" afterPath="$PROJECT_DIR$/styles/css/images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/styles/css/images/icons-18-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimes.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimes.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourierb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourierb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach.css" afterPath="$PROJECT_DIR$/styles/css/coach.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dataBox/jqm-datebox.mode.calbox.min.js" afterPath="$PROJECT_DIR$/js/dataBox/jqm-datebox.mode.calbox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar/jaime.png" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar/jaime.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/basic.css" afterPath="$PROJECT_DIR$/styles/css/basic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/README.TXT" afterPath="$PROJECT_DIR$/php/tcpdf/README.TXT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/tcpdf_barcodes_2d.php" afterPath="$PROJECT_DIR$/php/tcpdf/tcpdf_barcodes_2d.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach5.min.css" afterPath="$PROJECT_DIR$/styles/css/coach5.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/ajax/survey.js" afterPath="$PROJECT_DIR$/js/andaro/ajax/survey.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/chartbg-vanilla.png" afterPath="$PROJECT_DIR$/styles/images/chartbg-vanilla.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansbi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img" afterPath="$PROJECT_DIR$/styles/img" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar/eventsCalendarIcon.png" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar/eventsCalendarIcon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.jqplot.min.css" afterPath="$PROJECT_DIR$/styles/css/jquery.jqplot.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/cid0ct.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/cid0ct.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserif.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/trigger.js" afterPath="$PROJECT_DIR$/js/andaro/trigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelvetica.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelvetica.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_filters.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_filters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/visualize-light.css" afterPath="$PROJECT_DIR$/styles/css/visualize-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/chartbg.png" afterPath="$PROJECT_DIR$/styles/images/chartbg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach2.min.css" afterPath="$PROJECT_DIR$/styles/css/coach2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensed.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.sidr.light.css" afterPath="$PROJECT_DIR$/styles/css/jquery.sidr.light.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach2.css" afterPath="$PROJECT_DIR$/styles/css/coach2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensed.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach6.css" afterPath="$PROJECT_DIR$/styles/css/coach6.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/ajax/events.js" afterPath="$PROJECT_DIR$/js/andaro/ajax/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/cid0cs.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/cid0cs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/tcpdf_barcodes_1d.php" afterPath="$PROJECT_DIR$/php/tcpdf/tcpdf_barcodes_1d.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/visualize-dark.css" afterPath="$PROJECT_DIR$/styles/css/visualize-dark.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/bg_jRatingInfos.png" afterPath="$PROJECT_DIR$/styles/images/bg_jRatingInfos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/composer.json" afterPath="$PROJECT_DIR$/php/tcpdf/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_fonts.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_fonts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonob.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar/PluginPage.png" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar/PluginPage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/eventCalendar_theme_responsive.css" afterPath="$PROJECT_DIR$/styles/css/eventCalendar_theme_responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonoi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticab.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticab.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/tcpdf_autoconfig.php" afterPath="$PROJECT_DIR$/php/tcpdf/tcpdf_autoconfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/cid0kr.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/cid0kr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jRating.jquery.css" afterPath="$PROJECT_DIR$/styles/css/jRating.jquery.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/styles/css/images/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonobi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_images.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/json.js" afterPath="$PROJECT_DIR$/js/andaro/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.sidr.dark.scss" afterPath="$PROJECT_DIR$/styles/css/jquery.sidr.dark.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfazapfdingbats.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfazapfdingbats.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/styles/css/images/icons-18-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourier.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourier.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesans.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/cid0jp.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/cid0jp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db" afterPath="$PROJECT_DIR$/config/db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourieri.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourieri.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_colors.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/tcpdf_colors.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/eventCalendar/paradigmaLogo.png" afterPath="$PROJECT_DIR$/styles/css/images/eventCalendar/paradigmaLogo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/images/stars.png" afterPath="$PROJECT_DIR$/styles/css/images/stars.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aefurat.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfasymbol.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfasymbol.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images" afterPath="$PROJECT_DIR$/styles/images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dataBox/jqm-datebox-1.3.0.mode.datebox.js" afterPath="$PROJECT_DIR$/js/dataBox/jqm-datebox-1.3.0.mode.datebox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fileupload/files/thumbnail/IMG_8688.JPG" afterPath="$PROJECT_DIR$/php/fileupload/files/thumbnail/IMG_8688.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/webcoach.sql" afterPath="$PROJECT_DIR$/config/db/webcoach.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifb.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/andaro/uielements.js" afterPath="$PROJECT_DIR$/js/andaro/uielements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticabi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfahelveticabi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dataBox/jquery.mobile.datebox.i8n.de.js" afterPath="$PROJECT_DIR$/js/dataBox/jquery.mobile.datebox.i8n.de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach5.css" afterPath="$PROJECT_DIR$/styles/css/coach5.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.json" afterPath="$PROJECT_DIR$/config/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonobi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemono.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemono.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmono.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/.webcoach.sql.swp" afterPath="$PROJECT_DIR$/config/db/.webcoach.sql.swp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemono.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemono.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserifi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/eventsCalendarIcon.png" afterPath="$PROJECT_DIR$/styles/img/eventsCalendarIcon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansb.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansmonoi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusanscondensedb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/PluginPage.png" afterPath="$PROJECT_DIR$/styles/img/PluginPage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusans.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/aealarabiya.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/include/barcodes/pdf417.php" afterPath="$PROJECT_DIR$/php/tcpdf/include/barcodes/pdf417.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavusansextralight.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/gae-go/static/favicon.ico" afterPath="$PROJECT_DIR$/server/gae-go/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery.mobile-1.3.2.min.css" afterPath="$PROJECT_DIR$/styles/css/jquery.mobile-1.3.2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/tcpdf.php" afterPath="$PROJECT_DIR$/php/tcpdf/tcpdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fileupload/files/thumbnail/IMG_0028.PNG" afterPath="$PROJECT_DIR$/php/fileupload/files/thumbnail/IMG_0028.PNG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/andaro.css" afterPath="$PROJECT_DIR$/styles/css/andaro.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/coach6.min.css" afterPath="$PROJECT_DIR$/styles/css/coach6.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourierbi.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfacourierbi.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifcondensedb.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/dejavuserifbi.ctg.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freemonob.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesb.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/pdfatimesb.z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.php" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freeserif.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.ctg.z" afterPath="$PROJECT_DIR$/php/tcpdf/fonts/freesansi.ctg.z" />
+    </list>
+    <ignored path="coaching.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_TOOLBAR" value="true" />
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - web87-coach@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="coaching" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/andaro/anker.js" />
+        <option value="$PROJECT_DIR$/js/andaro/ajax/user.js" />
+        <option value="$PROJECT_DIR$/js/andaro/ajax/events.js" />
+        <option value="$PROJECT_DIR$/js/andaro/ajax/survey.js" />
+        <option value="$PROJECT_DIR$/dist/cordova/config.xml" />
+        <option value="$PROJECT_DIR$/dist/client/js/andaro/trigger.js" />
+        <option value="$PROJECT_DIR$/js/blueimp/tmpl.min.js" />
+        <option value="$PROJECT_DIR$/js/blueimp/load-image.all.min.js" />
+        <option value="$PROJECT_DIR$/dist/client/index.html" />
+        <option value="$PROJECT_DIR$/js/blueimp/canvas-to-blob.min.js" />
+        <option value="$PROJECT_DIR$/js/blueimp/jquery.blueimp-gallery.min.js" />
+        <option value="$PROJECT_DIR$/php/userfrosting/models/db_functions.php" />
+        <option value="$PROJECT_DIR$/php/index.html" />
+        <option value="$PROJECT_DIR$/dist/client/manifest.appcache" />
+        <option value="$PROJECT_DIR$/dist/client/config/config_local.json" />
+        <option value="$PROJECT_DIR$/dist/server/php/redbeanphp/andaro/auth.php" />
+        <option value="$PROJECT_DIR$/dist/server/php/userfrosting/api/process_login.php" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/config/config_remote.json" />
+        <option value="$PROJECT_DIR$/php/userfrosting/header-loggedout.php" />
+        <option value="$PROJECT_DIR$/php/userfrosting/models/page-templates/head-account.html" />
+        <option value="$PROJECT_DIR$/php/userfrosting/css/pcamon.css" />
+        <option value="$PROJECT_DIR$/dist/manifest.appcache" />
+        <option value="$PROJECT_DIR$/styles/css/andaro.css" />
+        <option value="$PROJECT_DIR$/php/redbeanphp/andaro/mail_put.php" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/dist/phpa/userfrosting/account/index.php" />
+        <option value="$PROJECT_DIR$/php/redbeanphp/andaro/auth.php" />
+        <option value="$PROJECT_DIR$/js/fileupload/main.js" />
+        <option value="$PROJECT_DIR$/php/redbeanphp/andaro/login.php" />
+        <option value="$PROJECT_DIR$/dist/php/userfrosting/account/index.php" />
+        <option value="$PROJECT_DIR$/dist/php/userfrosting/account/logout.php" />
+        <option value="$PROJECT_DIR$/dist/php/userfrosting/index.php" />
+        <option value="$PROJECT_DIR$/dist/php/userfrosting/api/process_login.php" />
+        <option value="$PROJECT_DIR$/dist/php/userfrosting/login.php" />
+        <option value="$PROJECT_DIR$/js/andaro/auth.js" />
+        <option value="$PROJECT_DIR$/php/userfrosting/api/process_login.php" />
+        <option value="$PROJECT_DIR$/php/userfrosting/login.php" />
+        <option value="$PROJECT_DIR$/php/userfrosting/index.php" />
+        <option value="$PROJECT_DIR$/php/userfrosting/account/logout.php" />
+        <option value="www.andaro.ch/apps/pcamon/dist/js/jquery/jquery-1.11.1.min.js" />
+        <option value="www.andaro.ch/apps/pcamon/dist/js/andaro/auth.js" />
+        <option value="$PROJECT_DIR$/php/redbeanphp/andaro/push.php" />
+        <option value="$PROJECT_DIR$/php/userfrosting/account/index.php" />
+        <option value="$PROJECT_DIR$/config/config_local.json" />
+        <option value="$PROJECT_DIR$/dist/config/config_local.json" />
+        <option value="$PROJECT_DIR$/dist/js/andaro/trigger.js" />
+        <option value="$PROJECT_DIR$/php/userfrosting/models/page-templates/head.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/js/andaro/trigger.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <initial>false</initial>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SQL</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coaching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coaching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pcamon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="data" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/dist/client" />
+      <recent name="$PROJECT_DIR$/dist/server" />
+      <recent name="$PROJECT_DIR$/dist/client/pcamon/www" />
+      <recent name="$PROJECT_DIR$/php/tcpdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/console" />
+      <recent name="$PROJECT_DIR$/php/fileupload" />
+      <recent name="$PROJECT_DIR$/js/fileupload" />
+      <recent name="$PROJECT_DIR$/js/footables" />
+      <recent name="$PROJECT_DIR$/js/dataBox" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/coaching/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://ftp.andaro.ch/apps/pcamon/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="5ace67a4-a197-44cd-827d-35f69a38b494" server_name="ftp.andaro.ch">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139b67bd-a688-4eba-a9b7-cc99c20ec16b" name="Default" comment="" />
+      <created>1386768125562</created>
+      <updated>1386768125562</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32694763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24945612" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23819743" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970226" sideWeight="0.6" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32522407" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16347381" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23815621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40076825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40076825" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32822478" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23104435" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970226" sideWeight="0.6" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16645327" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24265645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40076825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24945612" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40076825" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="old" />
+    <MESSAGE value="add" />
+    <MESSAGE value="Working Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/andaro/auth.js</url>
+          <line>109</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/andaro/auth.js</url>
+          <line>164</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/andaro/auth.js</url>
+          <line>151</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/andaro/auth.js</url>
+          <line>179</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/andaro/auth.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>http://www.andaro.ch/apps/pcamon/dist/js/andaro/auth.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/header-loggedout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44210526" vertical-offset="0" max-vertical-offset="475">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3568" max-vertical-offset="13650">
+          <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/js/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03177966" vertical-offset="0" max-vertical-offset="472">
+          <caret line="3" column="2306" selection-start-line="3" selection-start-column="2303" selection-end-line="3" selection-end-column="2306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/css/andaro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="4680">
+          <caret line="285" column="27" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/config/config_remote.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="499">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1740">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/redbeanphp/andaro/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15789473" vertical-offset="75" max-vertical-offset="750">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fileupload/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="2460">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fileupload/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072115384" vertical-offset="0" max-vertical-offset="416">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/redbeanphp/andaro/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.036057692" vertical-offset="120" max-vertical-offset="765">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/redbeanphp/andaro/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="540">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/models/authorization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.458333" vertical-offset="3409" max-vertical-offset="6270">
+          <caret line="280" column="9" selection-start-line="280" selection-start-column="9" selection-end-line="280" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03409091" vertical-offset="0" max-vertical-offset="440">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/userfrosting/account/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06315789" vertical-offset="390" max-vertical-offset="975">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/anamnese.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4208417" vertical-offset="330" max-vertical-offset="3855">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/audio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/anker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57114226" vertical-offset="1230" max-vertical-offset="3435">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/userfrosting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12631579" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/userfrosting/api/process_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5263158" vertical-offset="2195" max-vertical-offset="2670">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4631579" vertical-offset="1295" max-vertical-offset="1770">
+          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/userfrosting/account/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25263157" vertical-offset="0" max-vertical-offset="475">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/api/process_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36842105" vertical-offset="2195" max-vertical-offset="2670">
+          <caret line="186" column="40" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="2925">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/userfrosting/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.5416665" vertical-offset="838" max-vertical-offset="1770">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/php/redbeanphp/andaro/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://www.andaro.ch/apps/pcamon/dist/js/andaro/fnc.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://www.andaro.ch/apps/pcamon/dist/js/andaro/trigger.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://www.andaro.ch/apps/pcamon/dist/js/andaro/auth.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://www.andaro.ch/apps/pcamon/dist/js/jquery/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/redbeanphp/andaro/mail_put.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="90" max-vertical-offset="1320">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/redbeanphp/andaro/push.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.583333" vertical-offset="94" max-vertical-offset="735">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/fnc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2614" max-vertical-offset="3165">
+          <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/account/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/account/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="540">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/config/config_local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/andaro/trigger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="11115">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/models/page-templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="195" max-vertical-offset="720">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/js/userfrosting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6615">
+          <caret line="454" column="30" selection-start-line="454" selection-start-column="30" selection-end-line="454" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userfrosting/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="20178" max-vertical-offset="20745">
+          <caret line="1379" column="6" selection-start-line="1379" selection-start-column="6" selection-end-line="1379" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="14805">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="240">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="35895">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap/www/js/PushNotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap/platforms/ios/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8947368" vertical-offset="425" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.76842105" vertical-offset="365" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap/platforms/ios/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54108214" vertical-offset="720" max-vertical-offset="1260">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="74" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/andaro/trigger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="9585">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pcamon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>pcamon node_modules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
